@@ -3,3 +3,6 @@ My notes for some subject from my foundation courses
 
 - Intro to Multimedia
 - Intro to Operating System
+
+### Ignore me this is a test
+![Test Image](./Multimedia/imgRes/test.jpg)
