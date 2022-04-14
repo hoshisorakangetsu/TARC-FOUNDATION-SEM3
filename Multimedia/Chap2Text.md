@@ -18,7 +18,7 @@
 - Appearance of characters:
     - **Bold**
     - *Italic*
-    - <u>Underline</u>
+    - <u>Underline</u> (sila kaki imagine if viewing from github, github no support underline)
 - Point (pt)
     - Commonly used as a unit for font sizes
     - approximately 1/72 of an inch
