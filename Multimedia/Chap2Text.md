@@ -193,7 +193,9 @@
 - Copy paste from existing text source
 - File import for large text files
 - Scan text with OCR application for text that only exist in printable media
-    - ***OCR (Optimal Character Recognition)***: accuracy varies based on fonts and quality of source material
+    - ***OCR (Optimal Character Recognition)***: 
+        - Scans for text in the ***source*** given and return you editable text
+        - accuracy varies based on fonts and quality of source material
 
 # Guidelines for Text in Multimedia Applications
 - Be selective
