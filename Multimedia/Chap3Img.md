@@ -127,15 +127,6 @@
     - less detail (pixel are larger)
     - image appears to be fuzzy
     - small file size, but lower image quality
-- Device dependence
-    - dimensions of an image depend on the resolution of the output device. 
-    - Monitors generally have lower spatial resolution (again, idk if this is still the case now)
-        - Mac: 72ppi
-        - PC: 9ppi
-    - Printers generally have higher spatial resolution: 300dpi to 2400dpi
-    - bitmapped images are device-dependent:
-        - 300ppi image prints the original size on a 300ppi printer
-        - 300ppi image is greatly enlarged on a 72ppi monitor
 
 ### Color resolution
 - number of colors each pixel can display
@@ -163,6 +154,16 @@
     - Capable of solving the problem of quantization and color banding (by creating the transitional color on the hard stops [if this is chim sila ignore XD])
     ![Dithering](./imgRes/mtm_c2_dithering.png)
     - *if you zoom in on the photo you can see small dots on the dithered image*
+
+### Device dependence
+- dimensions of an image depend on the resolution of the output device. 
+- Monitors generally have lower spatial resolution (again, idk if this is still the case now)
+    - Mac: 72ppi
+    - PC: 9ppi
+- Printers generally have higher spatial resolution: 300dpi to 2400dpi
+- bitmapped images are device-dependent:
+    - 300ppi image prints the original size on a 300ppi printer
+    - 300ppi image is greatly enlarged on a 72ppi monitor
 
 # Resampling Bitmapped Image
 > Process of increasing or decreasing the number of samples described in a file (changes the original image)
@@ -246,4 +247,222 @@
         - PNG
         - GIF
 
-[//]: # (Stopped at slide 30)
+# Vector drawn graphics
+
+### Vector
+- A line with length, curvature and direction
+
+### Vector graphics
+- Images created from ***mathematically defined*** shapes 
+
+### Advantage
+- Can be enlarged without distortion
+- Smaller file size
+
+### Draw programs
+- Program used to draw vector graphics
+- Tools that resembles those of a draftsman
+    - Fixed shapes
+    - Bezier curves
+    - Pen
+- Objects are layered on each other and grouped to form complex images
+    - Grouping joins individual shapes
+    - Ungrouping separates the groups back into individual shapes
+    - ![Vector Example](./imgRes/mtm_c2_vector.png)
+    - *to the left is the illustration, to the right are the layers (This vector is created via combining diff layers)*
+
+### Device Independence
+- Vector graphics can be used on different devices without altering the image dimension (deep down vector is just a mathematical formula after all, and is calculated on the spot when it is used)
+- Printers and monitors preserve the original dimension of the image
+
+# Vector to Bitmapped & Back
+
+### Autotracing
+- Softwares analyzes a bitmapped image for shapes and converts the image into a vector graphic
+
+### Rasterizing
+- Samples the vector image and saves it in bitmapped form
+- Can think of like sort of "screenshot-ing ~~(or screen grab in terms of notes)~~" the vector graphic displayed on screen
+
+# Vector graphic file formats
+
+### Native format
+- Depends on the application used
+
+### General purpose
+- Vector-only:
+    - EPS (Encapsulated Postscript)
+    - PDF (Portable Document Format)
+- Metafiles:
+    - SVG (Scalable Vector Graphics)
+
+# Advantages (Bitmapped VS Vector)
+
+### Bitmapped Images
+- Represent complex contones
+- Full featured photo editing
+- Wide range of artistic effects
+- Precise Editing
+
+### Vector Images
+- Smooth scaling and reshaping
+- Ease of editing objects in layers
+- Small file size
+- Device independent
+
+# Disadvantages (Bitmapped VS Vector)
+
+### Bitmapped Images
+- Large file size
+- Precision are lost when the image/shape is scaled or rotated
+- Device dependent
+
+### Vector Image
+- Inaccurate, incomplete represent of complex contone images
+- No photo-editing capability
+- Limisted artistic control/effects
+
+# 3D Computer Graphics
+
+### Four steps
+1. [Modeling](#modeling)
+2. [Surface definition](#surface-definition)
+3. [Scene Composition](#scene-composition)
+4. [Rendering](#rendering)
+
+### Modeling
+- Process of specifying the shape of the 3D object
+- Two approaches
+    - Combine ***PRIMITIVE*** objects to form a new shape
+        - ***PRIMITIVE*** Objects -> 3D shapes supplied by the 3D graphic programs
+    - Use a ***MODELER*** to create shapes directly
+- Modelling with primitives (extended ver.)
+    - Use basic shapes to create complex 3D models
+- ***Parametric primitives***
+    - Objects that can be changed by specifying parameters like radiu
+    - Primitives can be scaled, rotated, moved and combined
+    - CSG (Constructive Solid Geometry)
+        - Primitives are joined, subtracted from or intersected with using Boolean operators
+- #### Modelling techniques
+    - [Polygon modeling](#polygon-modeling)
+    - [Spline modeling](#spline-modeling)
+    - [Metaball modeling](#metaball-modelling)
+    - [Formula modeling](#formula-modelling)
+
+- #### Polygon modeling
+    ![Polygon Modelling Exp](./imgRes/mtm_c2_polygonModeling.jpg)
+    - Object defined as pattern of straight-edged polygons
+    - Similar to bitmapped graphics in that the object is defined by fixed number of elements
+        - Fixed number of polygons for 3D
+        - Fixed number of pixels for 2D
+    - Advantages
+        - High quality, realistic surfaces
+        - Precise editing control
+    - Disadvantages
+        - Large file sizes
+        - Scaling distortions
+    - [Back to modelling techniques](#modelling-techniques)
+
+- #### Spline modeling
+    ![Spline Modeling Exp](./imgRes/mtm_c2_splineModeling.jpg)
+    - Use ***CURVES*** to create objects
+    - Similar to 2D vector graphics
+    - ***NURB*** Approach
+        - Non-Uniform Rational B-spline (not in notes, google best)
+        - Define an image using ***MATHEMATICAL*** formulas
+        - Able to be adjusted to various shape and sizes
+    - Advantages:
+        - Small file sizes
+        - Flexible objects
+        - NURBs are easily scaled
+    - Disadvantages:
+        - Less editing control
+    - [Back to modelling techniques](#modelling-techniques)
+
+- #### Metaball Modelling
+    ![Metaball Modeling Exp](./imgRes/mtm_c2_metaballModeling.jpg)
+    - Objects created as combination of elements called ***BLOBS***
+        - BLOBS
+            - ***Positive*** Blobs add to the object
+            - ***Negative*** blobs subtract from the object
+            - Smooth like lumps of clay
+    - Good for objects with soft edges
+    - [Back to modelling techniques](#modelling-techniques)
+
+- #### Formula Modelling
+    ![Formula Modeling Exp](./imgRes/mtm_c2_formulaModeling.png)
+    - Create object by specifying ***MATHEMATICAL*** formulas, and is then drawn by computer
+    - Requires knowledge of programming and advanced mathematics
+    - [Back to modelling techniques](#modelling-techniques)
+- [Back to Modeling Steps](#four-steps)
+
+### Surface Definition
+- Textures applied to the model's surface
+- Menu choices surfaces include wood, glass, metal, skin
+- Appearance of surfaces can change via altering the color, opacity and reflectivity
+- Custom surfaces
+    - Image maps
+    - Bump maps
+- [Back to Modeling Steps](#four-steps)
+
+### Scene Composition
+- Objects are arranged
+- Backgrounds are defined
+- Environmental effects added
+- Lighting established
+    ![Lighting Types](./imgRes/mtm_c2_lighting.jpg)
+    - Lighting choices
+        - Omni lights (also called point lights)
+        - Directional lights
+        - Spot lights
+        - Volumetric light (also called ambient light or global illumination)
+- Adjust lightig with brightness, color and attenuation
+- [Back to Modeling Steps](#four-steps)
+
+### Rendering
+- Computer processes the scene specified by the artist
+- Two main approaches
+    - Pre-rendering
+        - Render first into picture/video then use later
+        - Used for:
+            - Graphics
+            - Animation
+            - Video with limited interactivity
+    - Real-time rendering
+        - Renders realtime (as the name implies)
+        - Used for
+            - 3D applications like video games
+- Forms of rendering to create test scenes
+    - Wireframe rendering
+        - A series of ***LINES*** used to define the shape of an object is displayed, the surface is not shown
+        - Useful to test for basic geometry and placement of an object
+        ![Wireframe Example](./imgRes/mtm_c2_wireframe.jpg)
+- Surface rendering
+    - Applies lighting and shaders to the object
+    - ***Flat Shader***
+        - Imperfect but fast render process
+    - ***Smooth Shader***
+        - Better quality surface
+    - ***Ray tracing***
+        - Traces every rays of light as it interacts with objects on a scene
+    - ***Radiosity***
+        - Recreates the changes that result from interaction of different wavelength of light
+    ![Surface Rendering Exp](./imgRes/mtm_c2_surfaceRendering.png)
+- ***Final*** Render
+    - Translates 3D information to a 2D image
+    - ***Rendering Engines*** apply effects to the finished products (shadows, bumps, reflections, transparencies and lighting taken into account)
+    - Requires processing power, time and artistic talent to be successfull
+- [Back to Modeling Steps](#four-steps)
+
+# Creating Worlds
+- 3D graphics are powerful to create reproduction of the world around us
+- Fantasy worlds come alive with the help of creative artists and software applications like Maya, Blender, ZBrush #D StudeioMax
+
+# Guidelines Using Graphics in Multimedia
+- Identify the purpose of the graphic
+- Choose best format for each image
+- Match graphic design to purpose
+- Locate graphics (? I don't really understand but it's in notes)
+- Preserve the quality of image
+- Economize (? I don't really understand but it's in notes)
+- Organize and store graphic files for later use
