@@ -152,7 +152,7 @@
     - Combine pixels of different colors to produce another color that is not available in the indexed palette
     - Improves image quality without increasing bit depth
     - Capable of solving the problem of quantization and color banding (by creating the transitional color on the hard stops [if this is chim sila ignore XD])
-    ![Dithering](./imgRes/mtm_c2_dithering.png)
+    - ![Dithering](./imgRes/mtm_c2_dithering.png)
     - *if you zoom in on the photo you can see small dots on the dithered image*
 
 ### Device dependence
@@ -436,7 +436,7 @@
     - Wireframe rendering
         - A series of ***LINES*** used to define the shape of an object is displayed, the surface is not shown
         - Useful to test for basic geometry and placement of an object
-        ![Wireframe Example](./imgRes/mtm_c2_wireframe.jpg)
+        - ![Wireframe Example](./imgRes/mtm_c2_wireframe.jpg)
 - Surface rendering
     - Applies lighting and shaders to the object
     - ***Flat Shader***
@@ -447,7 +447,7 @@
         - Traces every rays of light as it interacts with objects on a scene
     - ***Radiosity***
         - Recreates the changes that result from interaction of different wavelength of light
-    ![Surface Rendering Exp](./imgRes/mtm_c2_surfaceRendering.png)
+    - ![Surface Rendering Exp](./imgRes/mtm_c2_surfaceRendering.png)
 - ***Final*** Render
     - Translates 3D information to a 2D image
     - ***Rendering Engines*** apply effects to the finished products (shadows, bumps, reflections, transparencies and lighting taken into account)
