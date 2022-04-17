@@ -61,7 +61,7 @@
         - Ease-in (start slow end fast) and ease-out (start fast end slow) helps to address the physics of motion
         - Overshooting a resting point shows kinetic energy of motion (it's like you let the thing go over where it's supposed to go and then pull it back)
         - Overlapping motion -> different components move independently on its own
-    - Exaggerate mjotion for dramatic effect
+    - Exaggerate motion for dramatic effect
         - Different speeds are used
         - Stretch and squash technique are used -> the ball are squashed as it hits the ground and stretched when it's bounced back up
 
@@ -114,7 +114,7 @@
     - Draft of animation's audio track
 - Leica reel
     - Working draft of the complete animation
-- Uses specialized equipment in production
+- Uses ***specialized*** equipment in production
     - Specialized paints to convey proper hue (or color)
     - Specialized camera and lighting to capture cels
     - Specialized device to
@@ -196,11 +196,81 @@
     - Lingo
     - JavaScript
     - ActionScript
-- [Back to Forms of Digital Animation](#two-different-forms)
+
+[Back to Forms of Digital Animation](#two-different-forms)
 
 # 3D
 - Exploited capabilities unique to computer
+- Elements of 3D animation that can be set in motion
+    - Objects
+    - Sounds
+    - Camera
+    - Light
+- Techniques are similar to 2D animation:
+    - Keyframes
+    - Tween motion
+- Complex motion may involve using models of humans or animals
 
-[//]: # (Stopped at slide 24)
+### Motion Capture
+- Also called *performance animation*
+- Technique of recording motion of real life objects, then map them to a computer generated character
+- Performers will have sensors dedicated to track the motion of various body parts as they create the action sequences
+- Primararily used to capture motions that are hard to be created
 
-- [Back to Forms of Digital Animation](#two-different-forms)
+### Forward Kinematics
+- ***Kinematics*** (same applies to [Inverse Kinematics](#inverse-kinematics))
+    - Study of motion of bodies or system of bodies
+    - Motion of one part generates related motion in other parts
+- Animators will need to adjust all motion in all related parts of the body
+- Advantages
+    - Models easily defined
+    - Computer processing is minimal
+    - Simple to implement
+- Disadvantages
+    - Quality of motion depends on animator's skill
+    - Very time consuming
+
+### Inverse Kinematics
+- Software knows and applies the knowledge of anatomical motion
+- Advantages
+    - More realistic than Forward Kinematics
+    - Simplifies animator's work and ensures consistent motion
+    - Reduces work of animator
+- Disadvantages
+    - Requires innovative programming
+    - Requires more power than forward kinematics
+
+### Animating with Physics
+- Software generate motions based on properties of object and law of physics
+- Frees animators from tedious tasks of 3D animation and can produce more realistic content
+- Animators will only need to focus on developing stories and characters
+
+### Rendering
+- Final step to complete the animation
+- Applies
+    - The modelings
+    - Surface definitions (or textures)
+    - Scene compositions as specified by the animator
+- Options
+    - Prerender
+        - Require large processing resources and time for animated movies
+        - Computer carry out complex calculations to implement object properties, lighting, camera angles and motions
+    - Realtime rendering
+        - Computer produces animation immediately
+        - Used in video games and highly interactive 3D animations
+
+[Back to Forms of Digital Animation](#two-different-forms)
+
+# Animation Tips and Guidelines
+- Prepare for a learning curve
+    - Animation programs are difficult to master
+- Design for delivery
+    - Minimize the file size if the delivery is for the Web
+- Consider clip animation to reduce cost (I have no idea what is Clip Animation also)
+- Consult the tradition in developing motion
+    - Cycles
+    - Holds
+    - Shooting on twos
+    - Tweening
+    - Stretch and squash
+    - Overshoot and overlap motions
