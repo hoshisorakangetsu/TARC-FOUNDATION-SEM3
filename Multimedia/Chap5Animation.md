@@ -11,6 +11,18 @@
     - 3D sensory experience
     - Embodiment and implementation of rules of behavior
 
+# Table of Contents
+1. [Animation Basics](#animation-basics)
+2. [Traditional Animation](#traditional-animation)
+3. [2D animation](#2d)
+    - Keyframe and Tween (Under [Animation Software and 2D in general](#2d))
+    - [Programmed](#programmed-animation)
+4. [3D animation](#3d)
+    - [Motion Capture](#motion-capture)
+    - [Kinematics](#forward-kinematics)
+    - [Animating With Physics](#animating-with-physics)
+5. [Guidelines for Animation](#animation-tips-and-guidelines)
+
 # Animation Basics
 
 ### Animation

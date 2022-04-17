@@ -1,6 +1,15 @@
 # Sound
 > a form of mechanical energy transimitted as vibratiohns in a medium
 
+# Table Of Contents
+1. [Sine Wave](#sine-wave)
+2. [Traditional Sound Reproduction](#traditional-sound-reproduction)
+3. [Digital Sound](#digital-sound)
+    - [Sampled](#sampled-sound)
+    - [Synthesized](#synthesized-sound)
+4. [Advantage of Digital Sound](#advantages-of-digital-sound)
+5. [Guidelines for Digital Sound](#guidelines-for-use-of-sound)
+
 # Sine wave
 - Captures ***THREE*** features of sound
     - Amplitude -> volume (directly proportional)

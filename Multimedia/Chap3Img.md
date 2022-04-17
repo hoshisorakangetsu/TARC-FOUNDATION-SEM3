@@ -3,6 +3,17 @@
 ### My own take
 > Graphics is an image/video representation of text. It is normally used to represent texts and the meanings that a person wants to convey. Graphics are generally easier to understand.
 
+# Table Of Contents
+1. [Challenges](#challenges-of-computer-images)
+2. [Contone Image](#contone-image)
+3. [Line Art](#line-art)
+4. [Black and White Image Reproduction](#black-and-white-image-reproduction)
+5. [Bitmapped Graphics](#bitmapped-graphics)
+    - [Compression](#compression)
+6. [Vector Graphics](#vector-drawn-graphics)
+7. [3D Computer Graphics](#3d-computer-graphics)
+8. [Guidelines using graphics](#guidelines-using-graphics-in-multimedia)
+
 # Challenges of Computer Images
 - Large file size
 - Slow downloads and processing

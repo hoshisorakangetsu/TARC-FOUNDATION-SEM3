@@ -1,5 +1,13 @@
 # Text
 
+# Table of Contents
+1. [Power of Text](#power-of-text)
+2. [Text Tradition](#text-tradition)
+3. [Codes for computer Text](#computer-text)
+4. [Font Technologies](#font-technologies)
+5. [Multimedia Text](#multimedia-text)
+6. [Guidelines For Use of Text](#guidelines-for-text-in-multimedia-applications)
+
 # Power of Text
 - Clarity
 - Universality
