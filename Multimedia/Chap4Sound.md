@@ -3,8 +3,8 @@
 
 # Sine wave
 - Captures ***THREE*** features of sound
-    - Amplitude -> volume
-    - Frequency -> Pitch
+    - Amplitude -> volume (directly proportional)
+    - Frequency -> Pitch (directly proportional)
     - Duration -> how long the sound lasts
 
 # Traditional Sound Reproduction
@@ -118,7 +118,105 @@ fileSize = sampleRate(Hz) * sampleSize(bytes) * sampleTime(seconds) * 2(if stere
 - Uses
     - Create original compositions
     - Produce novel sound effects
+- Computer will send commands to a specialized electronic device called a ***SYNTHESIZER***
 
-[//]: # (Stopped at slide 16)
-
+### MIDI (Musical Instrumental Digital Interface)
+- Most common standard to code commands for synthesizers
+- Codes provided for:
+    - Specific instruments
+    - Notes
+    - Force and duration of note
+    - Routing commands to different instrument channels
+    - Specialized control functions
+- Messages (or commands)
+    - Can be sent to any one of the 16 channels
+    - Voice or instruments are assigned to a channel
+    - ***Multitimbral*** systems
+        - Able to play multiple instruments 
+        - Simulteanously processing commands in different channel
+    - ***Polyphonic*** systems
+        - Play more than one note at once
+- Simplest MIDI system
+    ![MIDI System](./imgRes/mtm_c3_midiSystem.png)
+    - Digital musical instrument to create the "messages"
+    - Sound synthesizer inteprets the "messages"
+    - Amplifier (Speaker) outputs the sounds
+- Sequencer
+    ![MIDI System With Sequencer](./imgRes/mtm_c3_midiSystemWSequencer.png)
+    - Placed in between digital musical instrument and sound synthesizer
+    - Controls the flow or sequencing of MIDI data to a multitimbral synthesizer
+    - Can be hardware can be software (below is example of a software sequencer)
+    - ![MIDI Software Sequencer](./imgRes/mtm_c3_midiSequencers.png)
+- MIDI on computer
+    - Software and hardware emulates the MIDI sound system
+    - Hardware
+        - Soundcards + Synthesizers
+        - Interface ports for MIDI input devices
+    - Software
+        - Sequencer software lets you to place notes on a musical scale (the first image on top of this)
+        - Editing includes (for notes):
+            - Change pitch
+            - Change tempo
+            - Change duration
+            - Change volume
+        - Allows arrangement and timing of instruments for more precise controls
 - [Back to Type of Digital Sounds](#two-major-types)
+
+# SAMPLED vs SYNTHESIZED
+
+### Sampled
+- Advantages
+    - High quality
+    - Easily created
+    - Easily edited
+    - Playback qualities are consistent
+- Challenges
+    - Large file sizes
+    - Easily edited, but the editing controls aren't very rich
+
+### Synthesized
+- Advantages
+    - Full featured editing controls
+    - Small file size (as only commands (or "messages") are needed to be stored)
+- Challenges
+    - Need to be a musial expert to really stand out
+    - Playback quality sin't consistent (depends on which software/hardware you use to process the commands)
+    - Uneffective for natural sounds and human voices (they sound robotic if made with synthesizers)
+
+# Advantages of DIGITAL SOUND
+- Noise Reduction (can have softwares to process the sound)
+- Accurate recording
+- No generation decay
+- Durable (kinda same as no generation decay)
+- Random access 
+    - You don't need to play through the entire thing to find the section you want to listen to (compared to analog sounds)
+- Editing is easier and less expensive
+- Easily distributed via digital mediums
+    - CDs
+    - Internet
+
+# Digital Sound and the Internet
+
+### Downloaded audio
+- The complete audio file is transfered from the server to the client
+- File remains on the client's computer for later use (replay or editing)
+
+### Progressive downloads
+- File saved to the client's computer
+- Playes from RAM even when it is still downloading (like 3 mins sound, u downloaded 10secs and it will play what it has downloaded while continuing downloading the whole thing)
+
+### Streaming audio
+- Real time sound
+- Played while it is being delivered
+- Not saved on client computer
+- Can sort of think about voice calls
+- Requires special protocols, servers, special media formats and players
+- Now relatively popular one is [webRTC (not just for audio tho)](https://webrtc.github.io/samples)
+
+# Guidelines for use of sound
+- Identify the purpose of the sound, use it for good reasons (sounds kinda familiar hmmmmmmm)
+- Use high quality sound when available
+- Conserve file space
+- Think of the playback environment
+- Avoid using too many sound (it's annoying :)) )
+- Organize sound files and preserve (OR EVEN) credit the original sources
