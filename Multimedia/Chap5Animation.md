@@ -67,4 +67,140 @@
 
 # Traditional motion techniques
 
-[//]: # (stopped at slide 9)
+### Strategies for achieving motion has been applied to
+- Paper cut-outs
+- Clay figurines
+- Puppets
+- Natural objects photographed, reposed, then re-photographed again
+
+# CEL Animation
+
+### CEL Animation is perfected and made popular by Disney studios
+
+### This technique directly influenced development of digital animation
+
+### CEL
+- Drawings made on sheets of celluloid
+- Drawings were then photographed to produce the animated film
+
+### Advantages
+- Artists save drawing time
+    - ***Fixed*** components of a scene were drawn once and ***LAYERED*** on the bottom of a stack of celluloid sheets
+    - ***Moving*** components are drawn separately and then placed on top of the fixed scene components
+- Precise control over elements
+    - Individual cel layers can reproduce ***independent, complex*** motions
+- Encouraged division of labor and promoted high artistic standards
+    - Master artists draw the ***key frames or the extremes***
+        - Key frames or extremes -> The state of the character and the scene at a certain time
+    - Assistants draw the ***tweens***
+        - Tweens -> The transition frames between two keyframes
+    - Inkers transfer the drawings from paper to celluloid
+    - Opaquers apply colors to the celluloid
+    - Other specialists
+        - Producer
+        - Directors
+        - Script writers
+        - Audio specialists
+        - Camera operators
+        - Checkers
+
+### To produce CEL animation
+- Cost and complexity of creating animation requires a carefully defined process
+- Storyboard
+    - Sequence of drawings that sketches out content of major scenes in production
+- Pencil Test
+    - Series of simple sketches that are photographed and projected to test the design of animated sequences
+- Scratch track
+    - Draft of animation's audio track
+- Leica reel
+    - Working draft of the complete animation
+- Uses specialized equipment in production
+    - Specialized paints to convey proper hue (or color)
+    - Specialized camera and lighting to capture cels
+    - Specialized device to
+        - Track changes in paths of animated characters
+        - Align and hold the cels for camera shots
+        - Synchronize and edit the final film
+- Cel animation is a complex, demanding and expensive animation
+    - The appearance of computer improved the process
+
+# Digital Animation
+
+### Two different forms
+- [2D](#2d)
+- [3D](#3d)
+
+# 2D
+- Evolved from traditional animation techniques
+- Produced by mimicking basic traditional animation techniques like
+    - Flipbook technique
+    - Cutout animation technique
+    - Rotoscoping
+    - [CEL animation](#digital-cel-animation)
+- Paint/draw programs are used to create the components
+- [Animation softwares](#animation-softwares) can sequence, set timing, transitions and produce the final animation
+
+### Digital CEL Animation
+- Animations are a series of individual frames
+- Synchronized to one or more sound tracks
+- Graphics arranged on layers
+- Major changes identified in keyframes
+- Illusion of motion produced as series of tweens
+- [Go Back](#2d)
+
+### Animation Softwares
+- Elements of Flash organization
+    - Timeline: Horizontal row of frames
+    - Frames: Multiple layers in columns
+        - Layers stack and have order
+            - Lower layer: Background elements
+            - Higher layer: Changing elements
+    - Keyframes: Major changes in a frame
+    - Tweens: Frames created automatically by software (although this two applies to Flash, it's actually the same thing, just that the Flash will help you create Tweens)
+    - Onionskinning: Assists in drawing changes from one frame to the next
+- Frame-by-frame animation
+    - Each frame is manually drawn to reflect motion sequence
+    - Detailed control of each motion
+    - Very VERY time consuming
+- Tween animation:
+    - Computer generates the frames between two keyframes
+    - Some examples are (lazy explain if out then unlucky or just memorize)
+        - Motion tween
+        - Path based tween
+        - Shape tween (morphing)
+        - Size tween
+        - Color tween (I giv color tween eh example, applies to other tween as well)
+            - Computer generates in between, transition color from the first color to the second color specified by the keyframe
+        - Transparency tween
+- Provides tools to support animation process
+    - Image editing tools
+    - Alignment tools and grids
+        - To control placement
+    - Text tools
+    - Basic sound control
+    - Strategies to support interactivity
+- [Go Back (to 2D)](#2d)
+
+### Programmed animation
+- Animators write commands
+- The computer generates the animation based on the commands
+- Requires knowledge of programming and mathematical techniques to specify the motion
+- Advantages
+    - Smaller file size
+    - Animations load and play faster
+    - Reduces bandwidth and processor demands
+    - Efficient in creating different versions of animated sequence
+    - Supports complex forms of interactivity
+        - Computer can receive input from the user and animate the game objects on the spot
+- Scripting languages frequently used to generate programmed animations
+    - Lingo
+    - JavaScript
+    - ActionScript
+- [Back to Forms of Digital Animation](#two-different-forms)
+
+# 3D
+- Exploited capabilities unique to computer
+
+[//]: # (Stopped at slide 24)
+
+- [Back to Forms of Digital Animation](#two-different-forms)

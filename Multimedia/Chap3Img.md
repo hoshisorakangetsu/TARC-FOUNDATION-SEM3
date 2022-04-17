@@ -330,7 +330,7 @@
 3. [Scene Composition](#scene-composition)
 4. [Rendering](#rendering)
 
-### Modeling
+# Modeling
 - Process of specifying the shape of the 3D object
 - Two approaches
     - Combine ***PRIMITIVE*** objects to form a new shape
@@ -343,60 +343,61 @@
     - Primitives can be scaled, rotated, moved and combined
     - CSG (Constructive Solid Geometry)
         - Primitives are joined, subtracted from or intersected with using Boolean operators
-- #### Modelling techniques
-    - [Polygon modeling](#polygon-modeling)
-    - [Spline modeling](#spline-modeling)
-    - [Metaball modeling](#metaball-modelling)
-    - [Formula modeling](#formula-modelling)
 
-- #### Polygon modeling
-    ![Polygon Modelling Exp](./imgRes/mtm_c2_polygonModeling.jpg)
-    - Object defined as pattern of straight-edged polygons
-    - Similar to bitmapped graphics in that the object is defined by fixed number of elements
-        - Fixed number of polygons for 3D
-        - Fixed number of pixels for 2D
-    - Advantages
-        - High quality, realistic surfaces
-        - Precise editing control
-    - Disadvantages
-        - Large file sizes
-        - Scaling distortions
-    - [Back to modelling techniques](#modelling-techniques)
+### Modelling techniques
+- [Polygon modeling](#polygon-modeling)
+- [Spline modeling](#spline-modeling)
+- [Metaball modeling](#metaball-modelling)
+- [Formula modeling](#formula-modelling)
 
-- #### Spline modeling
-    ![Spline Modeling Exp](./imgRes/mtm_c2_splineModeling.jpg)
-    - Use ***CURVES*** to create objects
-    - Similar to 2D vector graphics
-    - ***NURB*** Approach
-        - Non-Uniform Rational B-spline (not in notes, google best)
-        - Define an image using ***MATHEMATICAL*** formulas
-        - Able to be adjusted to various shape and sizes
-    - Advantages:
-        - Small file sizes
-        - Flexible objects
-        - NURBs are easily scaled
-    - Disadvantages:
-        - Less editing control
-    - [Back to modelling techniques](#modelling-techniques)
+### Polygon modeling
+![Polygon Modelling Exp](./imgRes/mtm_c2_polygonModeling.jpg)
+- Object defined as pattern of straight-edged polygons
+- Similar to bitmapped graphics in that the object is defined by fixed number of elements
+    - Fixed number of polygons for 3D
+    - Fixed number of pixels for 2D
+- Advantages
+    - High quality, realistic surfaces
+    - Precise editing control
+- Disadvantages
+    - Large file sizes
+    - Scaling distortions
+- [Back to modelling techniques](#modelling-techniques)
 
-- #### Metaball Modelling
-    ![Metaball Modeling Exp](./imgRes/mtm_c2_metaballModeling.jpg)
-    - Objects created as combination of elements called ***BLOBS***
-        - BLOBS
-            - ***Positive*** Blobs add to the object
-            - ***Negative*** blobs subtract from the object
-            - Smooth like lumps of clay
-    - Good for objects with soft edges
-    - [Back to modelling techniques](#modelling-techniques)
+### Spline modeling
+![Spline Modeling Exp](./imgRes/mtm_c2_splineModeling.jpg)
+- Use ***CURVES*** to create objects
+- Similar to 2D vector graphics
+- ***NURB*** Approach
+    - Non-Uniform Rational B-spline (not in notes, google best)
+    - Define an image using ***MATHEMATICAL*** formulas
+    - Able to be adjusted to various shape and sizes
+- Advantages:
+    - Small file sizes
+    - Flexible objects
+    - NURBs are easily scaled
+- Disadvantages:
+    - Less editing control
+- [Back to modelling techniques](#modelling-techniques)
 
-- #### Formula Modelling
-    ![Formula Modeling Exp](./imgRes/mtm_c2_formulaModeling.png)
-    - Create object by specifying ***MATHEMATICAL*** formulas, and is then drawn by computer
-    - Requires knowledge of programming and advanced mathematics
-    - [Back to modelling techniques](#modelling-techniques)
+### Metaball Modelling
+![Metaball Modeling Exp](./imgRes/mtm_c2_metaballModeling.jpg)
+- Objects created as combination of elements called ***BLOBS***
+    - BLOBS
+        - ***Positive*** Blobs add to the object
+        - ***Negative*** blobs subtract from the object
+        - Smooth like lumps of clay
+- Good for objects with soft edges
+- [Back to modelling techniques](#modelling-techniques)
+
+### Formula Modelling
+![Formula Modeling Exp](./imgRes/mtm_c2_formulaModeling.png)
+- Create object by specifying ***MATHEMATICAL*** formulas, and is then drawn by computer
+- Requires knowledge of programming and advanced mathematics
+- [Back to modelling techniques](#modelling-techniques)
 - [Back to Modeling Steps](#four-steps)
 
-### Surface Definition
+# Surface Definition
 - Textures applied to the model's surface
 - Menu choices surfaces include wood, glass, metal, skin
 - Appearance of surfaces can change via altering the color, opacity and reflectivity
@@ -405,7 +406,7 @@
     - Bump maps
 - [Back to Modeling Steps](#four-steps)
 
-### Scene Composition
+# Scene Composition
 - Objects are arranged
 - Backgrounds are defined
 - Environmental effects added
@@ -419,7 +420,7 @@
 - Adjust lightig with brightness, color and attenuation
 - [Back to Modeling Steps](#four-steps)
 
-### Rendering
+# Rendering
 - Computer processes the scene specified by the artist
 - Two main approaches
     - Pre-rendering
