@@ -86,11 +86,46 @@
         - (A bit confusing for I-frames and Intra frames, seems like they are sorta connected)
         - [Intraframes VS Interframes](https://www.youtube.com/watch?v=ss8Re56zozY)
         - I-frames (Intra frames): Complete compressed frames
-        - P-frames (Predictive Frames): 
+        - P-frames (Predictive Frames): Records significant changes
+        - B-frames (Bidirectional frames): Records smaller changes between the I-frame and P-Frames (some use B-frames some don't)
         - So it's like it will take the compressed using Intraframes, and look down to the future frames, identifying what's changing and what's not, and take advantage of that to reduce the file size
+    - Decoding MPEG
+        - Processor reassembles dropped frames by using I-Frames as a reference to recreate the intervening frames with the changes stored in P-frames and B-frames
+    - Good for distributing video
+    - Not good for recording and editing video
 - Variable bit rate (VBR)
     - VBR assigns more bits to complex scenes and fewer bits to simpler scenes
     - Common option in video editing softwares
     - CBR (Constant bit rate)
         - Assigns same number of bits per second to all parts of the video
 - [Back to Digital Video Quality](#digital-video-quality)
+
+# Common Video Codes
+- MPEG
+    - MPEG-1 -> short videos on Video CD
+    - MPEG-4 -> Videos over the web
+- MJPEG
+    - Less compressed higher quality files without the loss suffered from interframe compression
+- RealVideo
+    - Proprietary codex for straming video on the Web
+- Flash Video
+    - (Once) Popular Internet video standard
+- QuickTime
+    - Cross-platform format supporting variety of codecs and screen resolutions
+- Windows Media Video
+    - Highly compressed streaming video format from Microsoft
+- SDTV
+    - Digital format that uses roughly the same resolution as analog TV
+- HDTV
+    - Uses 16:9 aspect ratio and progressing scanning
+- AVCHD
+    - A variant of MPEG-4 compression recording at 1080i, 1080p or 720p
+- MJPEG 2000
+    - Produces smaller files at hiher quality
+    - Uses Intra-frame compression
+    - Visually lossless
+    - Can be lossy or mathematically lossless compression
+
+# Sources of Digital Video 
+
+[//]: # (Stopped at page 15)
