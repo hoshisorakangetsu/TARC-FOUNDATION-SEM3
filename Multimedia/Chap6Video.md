@@ -83,8 +83,11 @@
     - Eliminates intervening (intermediary) frames and saves only the changes between the frames
     - Known strategy: MPEG compression
     - MPEG compression:
+        - (A bit confusing for I-frames and Intra frames, seems like they are sorta connected)
+        - [Intraframes VS Interframes](https://www.youtube.com/watch?v=ss8Re56zozY)
         - I-frames (Intra frames): Complete compressed frames
         - P-frames (Predictive Frames): 
+        - So it's like it will take the compressed using Intraframes, and look down to the future frames, identifying what's changing and what's not, and take advantage of that to reduce the file size
 - Variable bit rate (VBR)
     - VBR assigns more bits to complex scenes and fewer bits to simpler scenes
     - Common option in video editing softwares
