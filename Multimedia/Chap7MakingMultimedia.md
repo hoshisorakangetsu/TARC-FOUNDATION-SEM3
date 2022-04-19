@@ -1,6 +1,19 @@
 # Making Multimedia
 
 # Table of Contents
+1. [Methods to Integrate Media](#methods-to-integrate-media)
+    - [Programming](#programming)
+    - [Authoring](#authoring)
+        - [Authoring Applications](#authoring-applications)
+        - [Authoring Metaphors](#authoring-metaphors)
+        - [Authoring Process](#authoring-process)
+2. [Development Team](#development-team)
+    - [Team Members](#team-members)
+    - [Media Speicialists](#media-specialists)
+3. [Development Plan](#development-plan)
+    1. [Definition](#stage-1-definition)
+    2. [Design](#stage-2-design)
+    3. [Production](#stage-3-production)
 
 # Methods to Integrate Media
 - [Programming](#programming)
@@ -216,5 +229,179 @@
 [Back to Authoring Process](#authoring-process)
 
 ### Choosing an authoring application
+- No single authoring tool is suitable for all use cases
+    - Consider the subject
+        - Static or dynamic media
+    - Consider the media
+        - Source file formats compatible
+    - Consider delivery
+        - Where is the application used
+        - Means ofdistribution
+    - Consider the maintenance
+        - Expertise needed to revise content
+        - Frequent update cycles
 
-[//]: # (heheh stopped at page 26)
+# Development team
+
+### Team of experts is important for a project
+- They produce high quality media
+- They contribute to the development of ideas in the project cycle
+
+### Development is both
+- Interactive
+    - Team members share expertise and ideas during the development cycle
+- Iterative
+    - Revision of results from development feedback is needed
+
+# Team Members
+
+### Project manager
+- Responsible for delivering the product with promised features, on time and on budget
+- Oversees the business aspects of the development process
+- Organized, focused, task oriented
+
+### Project designer
+- Responsible for overall structure of content (user interface)
+    - Look
+    - Feel
+    - Functionality
+
+### Content expert
+- Has detailed understanding of the topic
+- Some projects rely on the client to provide content
+
+### Writers
+- Creates original text for the project
+- Provides written requirements of the project
+    - Documentation
+    - Contracts
+    - Help screens
+- Technical writing skills are useful
+
+# Media Specialists
+> Responsible for preparation of individual elements in a multimedia application
+
+### Graphics specialist
+- Artists skilled in design principles and most current digital technology
+
+### Sound specialist
+- Trained in traditional sound production and has a working knowledge of a sound studio
+- Familiar with digital tools for creating and editing sounds
+
+### Animation artist
+- Understands the principle of composition and color and is able to produce drawings
+- Understands the elements of motion and can envision (predict) action sequences
+- Knows computer animation programs and techniques
+
+### Video specialist
+- Videographers who have knowledge of film techniques, writing, sound and digital video production and editing
+
+### Programmer 
+- Responsible for computer code that unites the media elements and provides the product's functionality
+
+### Acquisitions specialist
+- Knowledgeable aout sources of copyright-protected content and process of securing permissions
+- Establishes agreements to protect the creative work of the project developers
+
+# Development Plan
+> Development is an iterative process, earlier stages are reshaped as development progresses
+- Address three essential tasks
+    - [Definition](#stage-1-definition)
+    - [Design](#stage-2-design)
+    - [Production](#stage-3-production)
+
+- Progress markers or *rewards* are identified at each stage
+- *Deliverables* are sent to the client as project takes shape
+- Payment schedules are often tied to deliverables
+
+# Stage 1: Definition
+- Identify the project goal or purpose
+- Identify the audience
+- Identify the role of multimedia in this project
+    - Advantages of multimedia to help accomplish the goal
+    - Media elements it requires
+    - Forms of interactivity to provide
+    - Delivery method and cost estimate
+
+### Key Documents
+- Preliminary Proposal
+    - Short description of the proposed application
+    - Includes
+        - Project goal
+        - Audience
+        - Outcomes
+        - Description of media
+        - Types and uses of interactivity
+        - Preliminary cost estimate
+    - Often includes a *flowchart*
+        - A simple box diagram with brief description of project contents
+- Storyboard
+    - Series of sketches of major screens
+    - Rough drawings of media elements such as photos, animations, videos that are sketched in
+    - Navigation sides are identified
+    - Used to
+        - Communicate with the client during definition stage
+        - Communicate project goals and requirements to the development team
+    - ![Storyboard Exp](./imgRes/mtm_c6_storyboard.jpg)
+- Functional specification
+    - Detailed description of the elements and performance of multimedia project
+    - Basis of a detailed business contract
+        - Developer and client understand what has been promised and the procedures to follow if changes are made in specifications
+
+# Stage 2: Design
+
+### Purpose
+- Create a ***prototype***
+    - Prototype -> An incomplete working model of the project
+    - First media elemnts are created
+    - Interface is designed
+    - Elements are combined and prototype is created
+
+### Media creation
+- Required media identified in a content inventory list
+- Media preproduction, production, postproduction are carried out
+
+### User Interface design
+- User interface defines how the user experiences the content on the screen
+- Goal:
+    - Engage the user
+    - Support the project goals, match expectations and abilities of audience
+    - Establish appropriate tone determined by style of media elements and controls
+- Features:
+    - Intuitive
+        - Immediately understood by the user
+        - Common strategy is to use a [metaphor](#authoring-metaphors)
+    - Consistent
+        - Common backgrounds and consistent location of user controls
+    - Predictable and reliable
+        - Similar actions should produce similar results
+        - Identical actions should produce identical results
+
+### Prototype (extended ver)
+- Used to test the product itself
+    - Test proposals
+    - Test assumptions of definistion and design stage
+    - Test product to see if it performs as anticipated
+    - Test navigation of the product
+    - Obtain internal and external product review
+- Guide subsequent work to complete the project
+
+# Stage 3: Production
+- Remaining elements of product are created and integrated into the application
+- Includes quality assurance testing with bug reports and corrective measures
+    - ***Alpha*** version
+        - Released to a small portion of people for testing
+        - Includes most media elements but also many bugs
+    - ***Beta*** version
+        - Released to a wider portion of people but also for testing
+        - Includes all media but still has a few bugs
+    - ***Gold master***
+        - Complete, bug-free application
+- Completion of
+    - Release notes
+    - Manuals
+    - Packaging
+- Project materials are systematically **ARCHIVED**
+    - Archived files may resolve disputes (arguments) between client and developers
+    - Project may need revisions that use archived files
+    - Copyrighted materials may be used in future projects
