@@ -1,6 +1,20 @@
 # Trends
 
 # Table Of Contents
+1. [Multimedia Today](#multimedia-today)
+    - [Business and Industry](#business-and-industry)
+    - [Education](#education)
+    - [Entertainment](#entertainment)
+    - [Government and Politics](#government-and-politics)
+    - [Medicine and Nursing](#medicine-and-nursing)
+2. [Multimedia from 1989 to 2019](#multimedia-1989-to-2019)
+3. [Evolution of Multimedia](#evolution-of-multimedia)
+4. [Future Development Trend](#future-development-trend)
+    - [Multimedia + AR](#multimedia--ar)
+    - [Multimedia + AI](#multimedia--ai)
+    - [Multimedia + communication technology](#multimedia--communcation-technology)
+    - [Multimedia + cloud computing environment](#multimedia--cloud-computing)
+    - [Minimise waste](#minimise-waste)
 
 # Multimedia Today
 - Used in **5** sectors
@@ -167,4 +181,117 @@
 - Videoconferencing
 - Online Resources
 
-[//]: # (Completed part 1 gonna start part 2 see tonight can finish c8 bo)
+# Multimedia (1989 to 2019)
+
+### Late 1990s
+- Multimedia: Combination of different forms of contents
+    - Text
+    - Images
+    - Audio
+    - Animation
+    - Video
+    - Interactive content
+
+### Today
+- Multimedia: Internet and new IT + Content Advertising, publishing, digital marketing, computer engineering and web development
+
+# Evolution of Multimedia
+
+### Evolution of Multimedia in the future
+- People communicate in whatever way they like
+    - Customer's communication preferences
+- 50% searches are done by voice search
+- Smart watches, smart speakers objects are connected (IoE)
+- Automate specific tasks in homes
+    - Google Assistant and Cortana
+- IoT
+- Virtual Reality
+
+### Marketing technology
+- Automation of marketing & Technology
+    - Exponential amount of data collected
+    - Right information to the right people
+    - Data + multimedia = useful delivery
+
+### Predictive Analysis
+- Data analysis
+    - Competitive advantage
+- Astronomical qualities
+    - Predict consumer behaviour
+
+### Multimedia + Business World
+- Collect, process and disseminate(spread) data
+    - Impacts business and B2B 
+        - B2B (Business to business)
+            - Transaction between business or between companies
+            - Like transaction between manufacturer and wholsaler
+- Automation + deep learning + AI
+    - Achieve better results
+    - Data facilitating decision making
+- Complexity of analysing large amounts of data
+    - Handled by machines if not too overwhelming
+
+### Edge Computing
+- Definition
+    - Distributed, open IT architecture
+    - Decentralised processing power
+    - Enable mobile computing
+    - IoT (Internet of Things)
+- Data is processed by the device itself
+    - Local computer or server
+    - Not data center
+- Collect customers' data + business process
+- Needed for technology innovations
+    - Reduced cloud data collection latency
+    - Redeuced analysis latency
+    - Reduced action latency
+- Delivers better perfomrance
+    - Use less inbound and outbound network data
+    - Reduced storage and infrastructure cost
+    - Delete collected and useless data
+
+# Future development trend
+- [Multimedia + AR](#multimedia--ar)
+- [Multimedia + AI](#multimedia--ai)
+- [Multimedia + communication technology](#multimedia--communcation-technology)
+- [Multimedia + cloud computing environment](#multimedia--cloud-computing)
+- [Minimise waste](#minimise-waste)
+
+### Multimedia + AR
+- AR -> Augmented Reality
+    - Interactive experience of a real world environment
+    - Objects that reside in the real world are enhanced by computer-generated perceptual information
+    - Sometimes across multiple sensory modalities
+- Development of virtual reality technology
+    - Like entered another world
+    - More focused
+- Good for education purposes
+    - Enjoy completing tasks
+    - Interesting
+    - No forcing needed
+
+[Back to Future Development Trend](#future-development-trend)
+
+### Multimedia + AI
+- Different visual and auditory experience
+    - Understand the information deeplu
+    - Analyze the behavior
+    - Produce intelligent system
+
+[Back to Future Development Trend](#future-development-trend)
+
+### Multimedia + Communcation Technology
+- With the popularization and development of 4G technology (5G d lo now), the connection of communication technology and Internet technology is becoming more and more closer
+
+[Back to Future Development Trend](#future-development-trend)
+
+### Multimedia + Cloud Computing
+- Build a multimedia platform that is suitable for the needs of its own development, based on its own development needs
+
+[Back to Future Development Trend](#future-development-trend)
+
+### Minimise waste
+- Save environment (no joke this is all the notes have)
+- I think is like humans are trying to do what they can to save the Earth, so waste must be minimized and more effective solutions for multimedia will be developed
+
+[Back to Future Development Trend](#future-development-trend)
