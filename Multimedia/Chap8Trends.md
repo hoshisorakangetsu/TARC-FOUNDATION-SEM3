@@ -18,11 +18,11 @@
 
 # Multimedia Today
 - Used in **5** sectors
-    - Business and Industry
-    - Education
-    - Entertainment
-    - Government and Politics
-    - Medicine and Nursing
+    - [Business and Industry](#business-and-industry)
+    - [Education](#education)
+    - [Entertainment](#entertainment)
+    - [Government and Politics](#government-and-politics)
+    - [Medicine and Nursing](#medicine-and-nursing)
 
 # Business and Industry
 
