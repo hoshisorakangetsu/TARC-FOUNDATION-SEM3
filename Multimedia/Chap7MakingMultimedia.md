@@ -353,13 +353,29 @@
 ### Purpose
 - Create a ***prototype***
     - Prototype -> An incomplete working model of the project
-    - First media elemnts are created
+    - First media elements are created
     - Interface is designed
     - Elements are combined and prototype is created
 
 ### Media creation
 - Required media identified in a content inventory list
+    - Content inventory list
+        - Contains list of required media
+        - Important as it serves as an early reality check (Can the required medias be produced in a timely and cost-effective manner?)
+        - Will be futher refined as the design process continues and the media elements are modified, removed or added to the project.
+        - Helps guiding the work of team members during production phase of the project
 - Media preproduction, production, postproduction are carried out
+    - Preproduction
+        - Prepares media for editing
+            - Scan photos or other graphics
+            - Digitalizing an analog sound or video
+            - Perform file conversions
+    - Production
+        - Asset is edited using softwares that has been selected
+            - Photoshop, SoundForge, Final Cut
+    - Postproduction
+        - Media edited in other software to achieve desired effects
+            - After Effects add animated text or special visual effects like portals, smokes or fire to the video
 
 ### User Interface design
 - User interface defines how the user experiences the content on the screen
@@ -377,7 +393,8 @@
         - Similar actions should produce similar results
         - Identical actions should produce identical results
 
-### Prototype (extended ver)
+### Prototype (extended ver {Functions})
+- Refine the definition of the product
 - Used to test the product itself
     - Test proposals
     - Test assumptions of definistion and design stage
