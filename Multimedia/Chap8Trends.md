@@ -217,7 +217,7 @@
 - Data analysis
     - Competitive advantage
 - Astronomical qualities
-    - Predict consumer behaviour
+    - Predict consumer behavior
 
 ### Multimedia + Business World
 - Collect, process and disseminate(spread) data
@@ -229,7 +229,7 @@
     - Achieve better results
     - Data facilitating decision making
 - Complexity of analysing large amounts of data
-    - Handled by machines if not too overwhelming
+    - Handled by machines aboh too overwhelming
 
 ### Edge Computing
 - Definition
