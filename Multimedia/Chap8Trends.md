@@ -216,7 +216,7 @@
 ### Predictive Analysis
 - Data analysis
     - Competitive advantage
-- Astronomical qualities
+- Astronomical quantities of data
     - Predict consumer behavior
 
 ### Multimedia + Business World
@@ -274,7 +274,7 @@
 
 ### Multimedia + AI
 - Different visual and auditory experience
-    - Understand the information deeplu
+    - Understand the information deeply
     - Analyze the behavior
     - Produce intelligent system
 

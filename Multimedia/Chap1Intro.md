@@ -1,5 +1,12 @@
 # Introduction to Multimedia
 
+# Table Of Contents
+1. Contemporary Multimedia
+2. Forms of Multimedia
+    - Non Interactive
+    - Interactive
+3. Multimedia Visionaries
+
 # Contemporary Multimedia
 > The development, integration and delivery of any combination of text, graphics, animation sound or video through a digital processing device
 
@@ -26,6 +33,26 @@
     - Like AR or VR
 
 # Multimedia Visionaries
+- First Generation
+    - [Vannevar Bush](#vannevar-bush)
+        - [Memex I & II](#memex-i-1954)
+    - [Alan Turing](#alan-turing)
+        - [Turing Machine](#turing-machine)
+- Second Generation
+    - [Douglas Engelbart](#douglas-engelbart)
+        - Interativity
+    - [Theodore Nelson](#theodore-nelson)
+        - Hypertext
+        - Hypermedia
+    - [Alan Kay](#alan-kay)
+        - Dynabook
+    - [Steve Jobs](#steve-jobs)
+        - Apple
+        - Macintosh
+    - [Tim Beners-Lee](#tim-berners-lee)
+        - Decentralized nodes
+- Next Generation
+    - Current innovators of multimedia
 
 # Vannevar Bush
 - Created 2 variations of the Memex
@@ -68,4 +95,73 @@
     - An **infinitely long tape** consisting of single row of squares
     - A **read/write head** that moved along tape one square at a time
     - A set of instructions
+- Single purpose Turing Machines
+    - Carry out a specific set of instructions of "effective procedure"
+- Universal Turing Machine (UTM)
+    - Accept a description of a single purpose turing machine and imitates it's behavior
+    - What is in Alan Turing's mind when he created this UTM
+        - If we think of a way to do something, the computer can do it
 
+# Douglas Engelbart
+- Proposed practical applications of computers beyond the normal mathematical and sorting functions
+- Developed interactivity in the ***NLS*** (oNLineSystem)
+    - Mouse
+    - Multiple screen areas for text editing
+    - Email
+
+# Theodore Nelson
+- Coined terms
+    - HyperText
+        - Interactive text linked to other textual information
+    - HyperMedia
+        - Extends interactive linking to other media
+        - Can sort of think like hypertext, but its images/sounds/videos/animations instead of text
+- Initiated Xanadu Project
+    - Dynamic, expanding hypertext library available to everyone
+    - Supports collaborative editing, tracking changes, crediting and rewarding contributors
+
+# Alan Kay
+- Proposed a computer design that supports the ways people perceive, learn and create
+- Dynabook
+    - Designed as a personal computer
+    - Tied to the mind and interests of the computer
+    - A **modeless** multimedia computer
+        - Users can move between graphics, sound and text seamlessly
+- Introduced Graphical User Interface (GUI) as an intuitive interface for the Dynabook
+
+# Steve Jobs
+- Founded Apple (1976) with Steve Wozniak
+- Macintosh computer
+    - Introduced in 1984
+    - Graphical desktop and Icons provide user interface
+    - First mass produced computer
+    - Built in sound support
+    - Multimedia computing became the standard for modern computers
+
+# Tim Berners-Lee
+- Developed a decetralized information system of ***nodes*** linked together for easy access across a network
+    - Nodes
+        - Anyform of media
+        - Anyone can add nodes
+        - no centralized control over servers, documents or links
+    
+# World Wide Web (WWW)
+
+### Basic Components
+- Server Computer
+- Client Computer
+- Browser Software
+- HTML scripting language
+
+### WWW & Multimedia Computing
+- Solves cross-platform compatibility problem
+- Supports distribution of media beyond the CD-ROM storage
+- Allowed instant distribution and inexpensive media creation
+
+# Revolution continues
+- Factors influencing the revolution
+    - Technical breakthroughs in hardware and software
+    - Integration of computers with other devicews
+    - Digital merger of different technologies and industries
+    - Future development of wireless communications and mobile devices
+    - Expansion of creative opportunity
