@@ -1,11 +1,28 @@
 # Introduction to Multimedia
 
 # Table Of Contents
-1. Contemporary Multimedia
-2. Forms of Multimedia
-    - Non Interactive
-    - Interactive
-3. Multimedia Visionaries
+1. [Contemporary Multimedia](#contemporary-multimedia)
+2. [Forms of Multimedia](#forms-of-multimedia)
+    - [Non Interactive](#non-interactive)
+    - [Interactive](#interactive)
+3. [Multimedia Visionaries](#multimedia-visionaries)
+    - [Vannevar Bush](#vannevar-bush)
+        - [Memex I & II](#memex-i-1954)
+    - [Alan Turing](#alan-turing)
+        - [Turing Machine](#turing-machine)
+    - [Douglas Engelbart](#douglas-engelbart)
+        - Interativity
+    - [Theodore Nelson](#theodore-nelson)
+        - Hypertext
+        - Hypermedia
+    - [Alan Kay](#alan-kay)
+        - Dynabook
+    - [Steve Jobs](#steve-jobs)
+        - Apple
+        - Macintosh
+    - [Tim Beners-Lee](#tim-berners-lee)
+        - Decentralized nodes
+4. [World Wide Web](#world-wide-web-www)
 
 # Contemporary Multimedia
 > The development, integration and delivery of any combination of text, graphics, animation sound or video through a digital processing device
@@ -90,6 +107,7 @@
 - Proposed an abstract machine known as the [Turing Machine](#turing-machine)
 
 ### Turing Machine
+- ![Turing Machine](./imgRes/mtm_c0_turingMachine.jpeg)
 - A means of defining an "effective procedure"
 - It's an imaginary device that has three components
     - An **infinitely long tape** consisting of single row of squares
