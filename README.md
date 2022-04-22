@@ -1,7 +1,7 @@
 # TARC-FOUNDATION-SEM3
 My notes for some subject from my foundation courses
 
-- Intro to Multimedia
+- [Intro to Multimedia (FULL)(if want individual chapters please go into the folder Multimedia)](./Multimedia/Combined.md)
 - Intro to Operating System
 
 ### Ignore me this is a test
