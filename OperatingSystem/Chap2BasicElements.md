@@ -1,5 +1,21 @@
 # C2 Basic Elements of an Operating System
 
+# Table Of Contents
+1. [Basic Unit of Data Representation](#basic-unit-of-data-representation)
+2. [Memory](#memory)
+    - [Memory Address](#memory-address)
+    - [Memory Operations](#operations-of-memory)
+    - [Data Transfers](#data-transfers)
+    - [Fetch](#fetch)
+    - [Store](#store)
+    - [Cache Memory](#cache-memory)
+3. [Processor](#processor)
+    - [Components](#components-of-a-processor)
+4. [Input/Output](#inputoutput-io)
+5. [Memory Capacity & Processor Speed](#memory-capacity--processor-speed)
+    - [Processor Speed](#processor-speed)
+    - [Memory Capacity](#memory-capacity)
+
 # Basic unit of Data Representation
 - **Bits** grouped together to form **bytes**, which are then grouped together to form **words**
 - Bits
@@ -105,7 +121,7 @@ func Store(a Addr, d Data) {
     - ADD 100, 104
     - ADD is the operation code
     - 100 and 104 are the operands
-- Components of a processor
+- #### Components of a processor
     - ALU
         - Arithmetic Logic Unit
         - Performs calculations and comparisons
@@ -128,16 +144,16 @@ func Store(a Addr, d Data) {
         - Wire connecting up different parts of CPU and CPU to other components
 
 # Input/Output (I/O)
-- IOCS (Input/Output Control System)
-    - Communicates directly with the computer's peripheral devices (mouse, keyboard, mic etc)
-- *Offtopic*: Command Processor
-    - Accepts, interprets and carry out commands
 - Application programs issue logical requests to start input or to start output
+- #### IOCS (Input/Output Control System)
+    - Communicates directly with the computer's peripheral devices (mouse, keyboard, mic etc)
 - The IOCS accepts these logical I/O requests and generates the *primitive commands* (commands that are understood by the hardwares) needed to physically control the peripheral devices
 - Logical I/O
     - Programmer's view logical record
 - Physical I/O
     - Transfer of a physical record between memory and a peripheral device
+- *Offtopic*: Command Processor
+    - Accepts, interprets and carry out commands
 
 # Memory Capacity & Processor Speed
 - On most systems, the internal components are designed around a common word size
