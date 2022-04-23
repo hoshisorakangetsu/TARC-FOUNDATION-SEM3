@@ -1,5 +1,34 @@
 # C3 Processor Management
 
+# Table Of Contents
+1. [How Processor Manager Works](#how-does-processor-manager-allocate-cpu-to-jobs)
+2. [Job Scheduling, Process Scheduling & MISC](#job-scheduling--process-scheduling--misc)
+    - [Job Scheduler](#job-scheduler)
+    - [Process Scheduler](#process-scheduler)
+    - [CPU cycles vs I/O cycles](#cpu-cycles-and-io-cycles)
+    - [Middle Level Scheduler](#middle-level-scheduler)
+3. [Process State](#process-state)
+    - [Job Status](#job-status)
+    - [Process Control Block (PCB)](#process-control-block-pcb)
+    - [PCB and Queues](#pcb-and-queuing)
+    - [Process Scheduling Queues](#process-scheduling-queues)
+3. [Interrupt Types](#interrupt-types)
+    - [Interrupt Handler](#interrupt-handler)
+4. [Process Scheduling Policy](#process-scheduling-policies)
+    - [Good Scheduling Policy](#good-scheduling-policy)
+    - [Non-preemptive Scheduling Policy](#non-preemptive-scheduling-policy)
+    - [Preemptive Scheduling Policy](#preemptive-schedling-policy)
+5. [Scheduling Algorithms](#process-scheduling-algorithms)
+    - Non-preemptive
+        - [First Come First Serve](#first-come-first-serve)
+        - [Shortest Job Next](#shortest-job-first)
+    - Preemptive
+        - [Round Robin](#round-robin)
+        - [Shortest Remaining Time First](#shortest-remaining-time-first)
+    - Priority Scheduling
+        - Can be [preemptive](#preemptive)
+        - Can be [non preemptive](#non-preemptive)
+
 # How Does Processor Manager Allocate CPU to Jobs
 - Processor Manager performs
     - Job Scheduling
@@ -188,12 +217,57 @@ Turnaround Time
 # Process Scheduling Algorithms
 
 ### Categories
+- Preemptive means jobs can be swapped out halfway and non-preemptive is the other way around
 - Non-preemptive
-    - First Come First Serve
-    - Shortest Job Next
+    - [First Come First Serve](#first-come-first-serve)
+    - [Shortest Job Next](#shortest-job-first)
 - Preemptive
-    - Round Robin
-    - Shortest Remaining Time First
+    - [Round Robin](#round-robin)
+    - [Shortest Remaining Time First](#shortest-remaining-time-first)
 - Priority Scheduling
-    - Can be preemptive
-    - Can be non preemptive
+    - Can be [preemptive](#preemptive)
+    - Can be [non preemptive](#non-preemptive)
+
+## All the below algorithms below is based on this example:
+
+![Example Question](./imgRes/os_c2_schedulingPolicyExp.png)
+
+### First Come First Serve
+
+![FCFS 1](./imgRes/os_c2_fcfs1.jpg)
+![FCFS 2](./imgRes/os_c2_fcfs2.jpg)
+
+### Shortest Job First
+
+![SJF 1](./imgRes/os_c2_sjf1.jpg)
+![SJF 2](./imgRes/os_c2_sjf2.jpg)
+
+### Round Robin
+
+![RR 1](./imgRes/os_c2_rr1.jpg)
+![RR 2](./imgRes/os_c2_rr2.jpg)
+![RR 3](./imgRes/os_c2_rr3.jpg)
+
+### Shortest Remaining Time First
+
+![SRTF 1](./imgRes/os_c2_srtf1.jpg)
+![SRTF 2](./imgRes/os_c2_srtf2.jpg)
+
+### Priority Scheduling
+- #### Non-preemptive
+
+![NPPS 1](./imgRes/os_c2_npps1.jpg)
+![NPPS 2](./imgRes/os_c2_npps2.jpg)
+
+- #### Preemptive
+
+![PPS 1](./imgRes/os_c2_pps1.jpg)
+![PPS 2](./imgRes/os_c2_pps2.jpg)
+
+### Starvation
+- Problems with some preemptive algorithms
+- Leads to starvation when processes with shorter burst time are kept on added to the queue, other processes with longer burst time might not even get the chance to be ran
+    - Shortest Job First
+    - Shortest Remaining Time First
+- Leads to starvation when processes with higher priority are kept on added to the queue, other processes with lower priority might not even get the chance to be ran
+    - Priority Scheduling(Preemptive or Non-preemptive)
