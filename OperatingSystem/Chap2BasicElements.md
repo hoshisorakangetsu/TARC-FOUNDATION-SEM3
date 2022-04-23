@@ -26,7 +26,8 @@
         - Sometimes punctuations
         - Sometimes images
         - Sometimes sounds
-- Computer memory is organized in a managable unit called **cells** each **cells** are typically 8 bits, so each cells typically has the capacity of 1 byte (8 bit = 1 byte)
+- Computer memory is organized in a managable unit called **cells** each **cells** are typically 8 bits, so each cells typically has the capacity of 1 byte (8 bits = 1 byte)
+- 2 bytes = 1 word
 
 # Memory
 - Holds active programs and data
