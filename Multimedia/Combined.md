@@ -3,7 +3,7 @@
 2. [Text](#c1-text)
 3. [Image Graphics](#c2-graphics)
 4. [Sound](#c3-sound)
-5. [Animation](#animation)
+5. [Animation](#c5-animation)
 6. [Video](#c6-video)
 7. [Making Multimedia](#c7-making-multimedia)
 8. [Trends in Multimedia](#c8-trends)
@@ -1149,14 +1149,15 @@ fileSize = sampleRate(Hz) * sampleSize(bytes) * sampleTime(seconds) * 2(if stere
 # Table of Contents
 1. [Animation Basics](#animation-basics)
 2. [Traditional Animation](#traditional-animation)
-3. [2D animation](#2d)
+3. [CEL Animation](#cel-animation)
+4. [2D animation](#2d)
     - Keyframe and Tween (Under [Animation Software and 2D in general](#2d))
     - [Programmed](#programmed-animation)
-4. [3D animation](#3d)
+5. [3D animation](#3d)
     - [Motion Capture](#motion-capture)
     - [Kinematics](#forward-kinematics)
     - [Animating With Physics](#animating-with-physics)
-5. [Guidelines for Animation](#animation-tips-and-guidelines)
+6. [Guidelines for Animation](#animation-tips-and-guidelines)
 
 # Animation Basics
 
