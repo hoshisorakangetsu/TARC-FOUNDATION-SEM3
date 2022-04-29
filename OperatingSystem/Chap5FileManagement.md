@@ -1,5 +1,35 @@
 # C5 File Management
 
+# Table of Contents
+1. [File Manager](#file-manager)
+    - [Efficiency](#efficiency-depends-on)
+    - [Responsibility](#responsibilities)
+2. [Chim Words](#important-definitions-aka-chim-words)
+    - [Field](#field)
+    - [Record](#record)
+    - [File (Flat File)](#file-flat-file)
+    - [Database](#database)
+    - [Program Files](#program-files)
+    - [Data Files](#data-files)
+    - [Directory](#directory)
+3. [Interacting with File Manager](#interacting-with-file-manager)
+    - [Embedded Commands (Programs)](#embedded-commands)
+    - [Interactive Commands (User)](#interactive-commands)
+    - [Device Independence](#device-independence)
+4. [Physical File Organization](#physical-file-organization)
+    - [Sequential](#sequential-record-organization)
+    - [Direct](#direct-record-organization)
+    - [Indexed Sequential](#indexed-sequential-record-organization)
+5. [Physical Storage Allocation](#physical-storage-allocation)
+    - [Contiguous](#contiguous-storage)
+    - [Linked Allocation](#linked-allocation-storage)
+    - [Indexed](#indexed-storage)
+6. [Free Space Management](#free-space-management)
+    - [Bit Vector](#bit-vector)
+    - [Linked List](#linked-list)
+    - [Grouping](#grouping)
+    - [Counting](#counting)
+
 # File Manager
 > Controls every file in a system
 
