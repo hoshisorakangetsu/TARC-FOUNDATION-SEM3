@@ -2,7 +2,7 @@
 My notes for some subject from my foundation courses
 
 - [Intro to Multimedia (FULL)(if want individual chapters please go into the folder Multimedia)](./Multimedia/Combined.md)
-- Intro to Operating System
+- [Intro to Operating System (FULL) (want individual chap sila go into the folder OperatingSystem)](./OperatingSystem/Combined.md)
 
 ### Ignore me this is a test
 ![Test Image](./Multimedia/imgRes/test.jpg)
